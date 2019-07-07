@@ -1,0 +1,26 @@
+
+$line-width: 50px;
+$line-height: 2px;
+
+$circle-width: 180px;
+$circle-height: 180px;
+
+$bg-circle_2: #17daa3;
+$bg-circle: #edeff1;
+
+$bg-map: url(../img/map.png);
+
+$fonts: 'Raleway', sans-serif;
+$font-size_p: 18px;
+$font-size_h1: 36px;
+@mixin button  {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #17daa3;
+    border: none;
+    border-radius: 20px;
+    margin: 70px 0px;
+    font-family: $fonts;
+}
